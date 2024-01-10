@@ -81,18 +81,26 @@ export default function Weather(props) {
           </li>
           <li>
             Wind speed:{" "}
-            <span className="data">{Math.round(weather.wind)} mph</span>
+            <span className="data">
+              {Math.round(weather.wind)} <small>mph</small>
+            </span>
           </li>
           <li>
             {" "}
             <img src={weather.icon} alt="weather icon" />
           </li>
         </ul>
-        <img src={weather.icon} alt="weather icon" />
-        <img src={weather.icon} alt="weather icon" />
-        <img src={weather.icon} alt="weather icon" />
-        <img src={weather.icon} alt="weather icon" />
-        <img src={weather.icon} alt="weather icon" />
+        <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="rain" />
+        <img src="https://openweathermap.org/img/wn/50d@2x.png" alt="mist" />
+        <img src="https://openweathermap.org/img/wn/13d@2x.png" alt="snow" />
+        <img
+          src="https://openweathermap.org/img/wn/04d@2x.png"
+          alt="broken clouds"
+        />
+        <img
+          src="https://openweathermap.org/img/wn/03d@2x.png"
+          alt="scattered clouds"
+        />
         <div>
           <button className="button">Current Location</button>
         </div>
