@@ -10,8 +10,8 @@ function App() {
       </header>
       <footer>
         <a
-          href="https://github.com/themightyvicki1/weather-react"
-          title="https://github.com/themightyvicki1/weather-react"
+          href="https://github.com/themightyvicki1/weather-react-app"
+          title="https://github.com/themightyvicki1/weather-react-app"
         >
           {" "}
           Open Source Coded by
