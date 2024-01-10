@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Weather from "./Weather";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Weather React App</h1>
+        <Weather />
       </header>
+      <footer>
+        <a
+          href="https://github.com/themightyvicki1/weather-react"
+          title="https://github.com/themightyvicki1/weather-react"
+        >
+          {" "}
+          Open Source Coded by
+        </a>{" "}
+        Victoria Greer
+      </footer>
     </div>
   );
 }
