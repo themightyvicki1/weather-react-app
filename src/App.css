@@ -14,7 +14,6 @@
 }
 
 .App-header {
-  background-color: whitesmoke;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +21,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+
+  border: 3px solid #ffcbcb;
+  border-radius: 8px;
+  padding: 50px 110px;
+  background-color: #393e46;
 }
 
 .App-link {

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-export default function Weather() {
+export default function Weather(props) {
   // create const to store city, setCity function, and set to ""
   const [city, setCity] = useState("");
   // create a new state, know if we have results
